@@ -6,7 +6,7 @@ import numpy as np
 
 from PIL import Image, ImageDraw
 
-# ---------------- PAGE CONFIG ----------------
+
 
 st.set_page_config(
     page_title="AI Face Mask Detection",
@@ -14,7 +14,7 @@ st.set_page_config(
     layout="wide"
 )
 
-# ---------------- LOAD MODEL ----------------
+
 
 @st.cache_resource
 def load_model():
@@ -29,7 +29,6 @@ face_detector = cv2.CascadeClassifier(
 
 class_names = ["With Mask", "Without Mask"]
 
-# ---------------- CUSTOM CSS ----------------
 
 st.markdown("""
 <style>
