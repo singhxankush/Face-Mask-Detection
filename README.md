@@ -46,6 +46,7 @@ dataset/
 ├── with_mask/
 └── without_mask/
 ```
+Dataset Link: [Kaggle_Dataset](https://www.kaggle.com/datasets/omkargurav/face-mask-dataset)
 
 ##  Model Architecture
 
