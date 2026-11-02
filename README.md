@@ -1,10 +1,10 @@
-# 😷 AI Face Mask Detection
+#  AI Face Mask Detection
 
 A beginner-friendly computer vision and deep learning project that detects faces in images and classifies them into two categories: **With Mask** and **Without Mask**.
 
 Built using Python, TensorFlow, OpenCV and Streamlit.
 
-## ✨ Features
+##  Features
 
 - Upload JPG, JPEG and PNG images.
 - Detect multiple faces in a single photograph.
@@ -16,7 +16,7 @@ Built using Python, TensorFlow, OpenCV and Streamlit.
 - Download the annotated result image.
 - Reset the application and test another image.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -29,7 +29,7 @@ Built using Python, TensorFlow, OpenCV and Streamlit.
 | Matplotlib | Dataset visualization |
 | Scikit-learn | Model evaluation and classification report |
 
-## 📂 Dataset
+##  Dataset
 
 The dataset contains two categories:
 
@@ -47,7 +47,7 @@ dataset/
 └── without_mask/
 ```
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 A Convolutional Neural Network (CNN) is used for mask classification.
 
@@ -68,7 +68,7 @@ The model contains:
 
 The model is trained using the Adam optimizer and Sparse Categorical Crossentropy loss function.
 
-## ⚙️ How It Works
+##  How It Works
 
 The application follows this workflow:
 
@@ -96,16 +96,16 @@ Display Results and Bounding Boxes
 
 OpenCV locates faces using a Haar Cascade classifier. The CNN then classifies each detected face independently.
 
-## 🚀 Installation and Setup
+##  Installation and Setup
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Face-Mask-Detection.git
+git clone https://github.com/singhxankush/Face-Mask-Detection.git
 cd Face-Mask-Detection
 ```
 
-Replace `YOUR-USERNAME` with your GitHub username.
+
 
 ### 2. Create a virtual environment
 
@@ -161,32 +161,30 @@ Open the local URL displayed in your terminal, usually:
 http://localhost:8501
 ```
 
-## 📈 Model Evaluation
+##  Model Evaluation
 
 The recorded validation evaluation achieved approximately **95.63% accuracy**.
 
 This is a validation result, not a guarantee of accuracy on unfamiliar real-world photographs. Performance can vary with lighting, camera angles, face size and image quality.
 
-## ⚠️ Limitations
+##  Limitations
 
 - Haar Cascade may fail to detect some faces, especially small, rotated or partially obscured faces.
 - CNN predictions may be incorrect on photographs that differ from the training dataset.
 - Confidence scores are model outputs and should not be interpreted as guaranteed accuracy.
 - The application processes uploaded images; it does not perform continuous real-time webcam detection.
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Improve face detection for different angles and lighting conditions.
 - Train and evaluate the CNN on more diverse images.
 - Explore more advanced face detection methods.
 - Add real-time webcam detection.
 
-## 👨‍💻 Author
+##  Author
 
 **Ankush Singh**
 
 Computer Science and Engineering Student
 
-## 📜 License
 
-This project is intended for educational and learning purposes. Check the original dataset's license and terms before redistributing it.
